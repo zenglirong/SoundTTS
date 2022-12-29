@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
 //                MediaManager mediaManager = new MediaManager(getApplicationContext(), R.raw.sound);
 //            }).start();
         });
-
     }
 
 
