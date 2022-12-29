@@ -1,9 +1,5 @@
 package com.iflytek.demo;
 
-
-import static android.os.SystemClock.sleep;
-
-import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +10,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
@@ -25,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected static final int RESULT_SPEECH = 1;
 
     private TextView txtText;
-
-    static boolean init = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
